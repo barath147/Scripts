@@ -23,4 +23,4 @@
     command: docker pull barath147/docker-webapp-image:latest
 
   - name: create container using deraviyam/docker-webapp-image
-    command: docker run -d --name docker-webapp-container -p 4000:8080 barath147/docker-webapp-image:latest
+    command: docker run -d --name docker-webapp-container -p 4000:4000 barath147/docker-webapp-image:latest
